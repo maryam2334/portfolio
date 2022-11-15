@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap')
+
+
+html{position: relative;
+    width: 100%;
+}
+body {
+    background:linear-gradient(#3aa5a4, #7ae5e4);
+}
+.back{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url(https://technext.github.io/energy1/assets/images/img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 10%;
+    width: 100%;
+    height: 550px;
+  }
+
+
+.titre1{
+    font-size: 50px;
+    font-family:'oswald' ,sans-serif;
+    color: #fff;
+    text-align:center;
+    font-weight: 900;
+    line-height: 1.1;
+    padding: 10px 0 40px;
+    
+    
+}
+
+.projet2{
+    float: left;
+    margin-left: 40px;
+}
+.projet2 img{
+    width: 300px;
+    height: 200px;
+}
+.projetnom{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.projetdate{
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.pic{
+    float: left;
+    margin: 2px;
+    padding: 1px;
+    padding-left: 30px;
+}
+.about{
+    margin-top: 30px;
+    color: rgba(113, 111, 111, 0.845);
+    
+   
+}
+
+
+.work1{
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+}
+.workd{
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+.workt{
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.workp{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+
+}
+.titre{
+    font-family: 'oswald', sans-serif;
+    font-size: 35px;
+    padding-left: 35px;
+    padding-top: 13px;
+
+
+}
+
+.education{
+    float: left;
+    width: 33.33%;
+    padding: 35px;
+    box-sizing: border-box;
+    /* margin-top:30px;
+    margin-left: 2.5%;
+    height: 200px; */ 
+}
+/* .education2{
+    float: left;
+    margin-top:30px;
+    margin-left: 15%;
+    width: 20%;
+    height: 200px;
+}
+.education3{
+    float: left;
+    margin-top:30px;
+    margin-left: 15%;
+    width: 20%;
+    height: 200px;
+} */
+
+
+.educationdate{
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+.educationnom{
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+.educationlieu{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+
+
+.nom{text-align: center;
+    color: #fff;
+font-family:  'oswald' ,sans-serif;
+
+
+}
+.
+
+.projetpic{
+    padding-left: 30px;
+}
+
+.language1{
+    float: left;
+    margin-top:30px;
+    margin-left: 2.5%;
+    width: 20%;
+    height: 45px;
+}
+.language2{
+    float: left;
+    margin-top:30px;
+    margin-left: 15%;
+    width: 20%;
+    height: 45px;
+}
+.language3{
+    float: left;
+    margin-top:30px;
+    margin-left: 15%;
+    width: 20%;
+    height: 45px;
+   
+    
+
+
+}
+.gris{color: rgb(150, 146, 146);
+
+}
+.workdiv,.languagediv,.Contact{
+
+
+        height: 550px;
+        width: 90%;
+        background-color: #fff;
+       
+        margin:auto;
+        padding: auto;
+        margin-bottom: 30px;
+    }
+.DIV{
+    height: 340px;
+    width: 87%;
+    background-color: #fff;
+    margin:auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.languagediv{
+    height: 200px;
+    width: 87%;
+    background-color: #fff;
+    margin:auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.textarea,.email,.text{
+    margin: 15px;
+    background-color: rgb(223, 227, 230);
+    width: 95%;
+    border: 25px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.Contact{
+    height: 550px;
+    width: 90%;
+    background-color: #fff;
+    display: block;
+    margin:auto;
+    padding:auto;
+    margin-bottom: 30px;
+}
+.boutton {
+    width: 13%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+   font-size: 0.40cm;
+   margin-left: 13px;
+}
+p{font-family: 'lato',sans-serif;
+}
+.social{height: 550px;
+    width: 90%;
+    background-color: #fff;
+   height: 250px;
+    margin:auto;
+    padding: auto;
+    margin-bottom: 30px;
+}
+
+.soc{float: left;
+    width: 33.33%;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.educationdiv{
+    
+    width: 90%;
+    background-color: #fff;
+   height: 300px;
+    margin:auto;
+    padding: auto;
+    margin-bottom: 30px;
+}
+.projects{
+    width: 90%;
+    background-color: #fff;
+   height: 450px;
+    margin:auto;
+    padding: auto;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
